@@ -14,6 +14,7 @@
 		2CF9D1132CA98FC300497C75 /* FitSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9D1122CA98FC300497C75 /* FitSyncTests.swift */; };
 		2CF9D11D2CA98FC300497C75 /* FitSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9D11C2CA98FC300497C75 /* FitSyncUITests.swift */; };
 		2CF9D11F2CA98FC300497C75 /* FitSyncUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9D11E2CA98FC300497C75 /* FitSyncUITestsLaunchTests.swift */; };
+		B4A635602CA9917A005AF21C /* ExploreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A6355F2CA9917A005AF21C /* ExploreScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2CF9D1182CA98FC300497C75 /* FitSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF9D11C2CA98FC300497C75 /* FitSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitSyncUITests.swift; sourceTree = "<group>"; };
 		2CF9D11E2CA98FC300497C75 /* FitSyncUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitSyncUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4A6355F2CA9917A005AF21C /* ExploreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExploreScreen.swift; path = ../ExploreScreen.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				2CF9D1012CA98FC200497C75 /* FitSyncApp.swift */,
 				2CF9D1032CA98FC200497C75 /* ContentView.swift */,
+				B4A6355F2CA9917A005AF21C /* ExploreScreen.swift */,
 				2CF9D1052CA98FC300497C75 /* Assets.xcassets */,
 				2CF9D1072CA98FC300497C75 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CF9D1042CA98FC200497C75 /* ContentView.swift in Sources */,
+				B4A635602CA9917A005AF21C /* ExploreScreen.swift in Sources */,
 				2CF9D1022CA98FC200497C75 /* FitSyncApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
